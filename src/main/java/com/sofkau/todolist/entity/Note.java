@@ -21,4 +21,6 @@ public class Note {
     private String message;
 
     private boolean done;
+
+    private Long fkCategoryId;
 }
