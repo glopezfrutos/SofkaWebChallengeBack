@@ -6,8 +6,8 @@ To run:
 - Create an MySQL Schema called "notes" (user "root", password "1234567890")
 - Open the project in IntelliJ, install dependencies and run the "ToDoListApplication"
 
-API examples:
-- Get all Categories and Notes: http://localhost:8081/api/get
+#### API examples:
+##### Get all Categories and Notes: http://localhost:8081/api/get
 Response:
 [
     {
@@ -24,7 +24,7 @@ Response:
     }
 ]
 
-- Add new Category: http://localhost:8081/api/save/category
+##### Add new Category: http://localhost:8081/api/save/category
 Recive:
 {
     "category": "Travels",
@@ -37,7 +37,7 @@ Response:
     "notes": []
 }
 
-- Add new Note: http://localhost:8081/api/save/note
+##### Add new Note: http://localhost:8081/api/save/note
 Recieve:
 {
     "note": "Mexico",
@@ -65,7 +65,7 @@ Response:
     ]
 }
 
-- Update Note: http://localhost:8081/api/update/note
+##### Update Note: http://localhost:8081/api/update/note
 Receive:
 {
     "id": 1,
@@ -81,7 +81,7 @@ Response:
     "fkCategoryId": 1
 }
 
-- Update Category: http://localhost:8081/api/update/category
+##### Update Category: http://localhost:8081/api/update/category
 {
     "id": 1,
     "category": "Travels to do"
@@ -93,9 +93,9 @@ Response:
     "notes": []
 }
 
-- Delete Note: http://localhost:8081/api/delete/note/{id}
+##### Delete Note: http://localhost:8081/api/delete/note/{id}
 
-- Delete Category: http://localhost:8081/api/delete/category/{id}
+##### Delete Category: http://localhost:8081/api/delete/category/{id}
 
 
 
